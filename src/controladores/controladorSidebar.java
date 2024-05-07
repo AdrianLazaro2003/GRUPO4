@@ -21,6 +21,8 @@ public class controladorSidebar implements  ActionListener, MouseListener, KeyLi
 
     private menuSidebar vista;
     
+//    esta es una nueva linea
+//      esta es otra linea
     public controladorSidebar(menuSidebar vista){
         this.vista = vista;
         
@@ -87,5 +89,6 @@ public class controladorSidebar implements  ActionListener, MouseListener, KeyLi
     @Override
     public void keyReleased(KeyEvent e) {
     }
+    
     
 }
